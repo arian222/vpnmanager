@@ -41,8 +41,8 @@ check_error "Nu s-au putut crea directoarele necesare"
 # Descarcă și instalează scriptul principal
 echo -e "\n${YELLOW}Instalez scriptul principal...${NC}"
 GITHUB_USERNAME="arian222"  # Înlocuiește cu username-ul tău de GitHub
-SCRIPT_URL="https://raw.githubusercontent.com/$GITHUB_USERNAME/vpnmanager/main/vpn_manager.sh"
-wget -O /usr/local/vpnmanager/vpnmanager.sh "$SCRIPT_URL"
+SCRIPT_URL="https://raw.githubusercontent.com/arian222/vpnmanager/main/vpn_manager.sh"
+wget -O /usr/local/vpnmanager/vpnmanager.sh "https://raw.githubusercontent.com/arian222/vpnmanager/main/vpn_manager.sh"
 if [ $? -ne 0 ]; then
     echo -e "${RED}Nu s-a putut descărca scriptul principal.${NC}"
     echo -e "URL încercat: $SCRIPT_URL"
