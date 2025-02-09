@@ -5,7 +5,7 @@ Manager pentru conexiuni VPN SSH SSL cu sistem de licențiere prin IP.
 ## Instalare Administrator
 
 ```bash
-wget https://raw.githubusercontent.com/YOUR_USERNAME/vpnmanager/main/install.sh
+wget https://raw.githubusercontent.com/arian222/vpnmanager/main/install.sh
 chmod +x install.sh
 sudo ./install.sh
 ```
@@ -13,7 +13,7 @@ sudo ./install.sh
 ## Instalare Client
 
 ```bash
-wget https://raw.githubusercontent.com/YOUR_USERNAME/vpnmanager/main/client_install.sh
+wget https://raw.githubusercontent.com/arian222/vpnmanager/main/client_install.sh
 chmod +x client_install.sh
 sudo ./client_install.sh
 ```
