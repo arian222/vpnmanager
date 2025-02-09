@@ -43,10 +43,10 @@ fi
 # Descarcă scripturile necesare
 echo -e "\n${YELLOW}Descarc scripturile...${NC}"
 GITHUB_USERNAME="arian222"  # Înlocuiește cu username-ul tău real de GitHub
-BASE_URL="https://raw.githubusercontent.com/$GITHUB_USERNAME/vpnmanager/main"
+BASE_URL="https://raw.githubusercontent.com/arian222/vpnmanager/main"
 
 # Descarcă scriptul principal cu verificare
-wget -O /usr/local/vpnmanager/vpnmanager.sh "$BASE_URL/vpn_manager.sh"
+wget -O /usr/local/vpnmanager/vpnmanager.sh "https://raw.githubusercontent.com/arian222/vpnmanager/main/vpn_manager.sh"
 if [ $? -ne 0 ]; then
     echo -e "${RED}Eroare la descărcarea scriptului principal.${NC}"
     echo -e "URL încercat: $BASE_URL/vpn_manager.sh"
